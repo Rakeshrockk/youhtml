@@ -1,0 +1,8 @@
+.name{
+    color:blueviolet;
+}
+body{
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&family=Roboto+Condensed:ital@1&family=Shadows+Into+Light&display=swap');
+
+font-family: 'Shadows Into Light', cursive;
+}
