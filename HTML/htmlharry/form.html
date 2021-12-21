@@ -11,7 +11,12 @@
         <h1>travel form for our trip</h1>
         <form action="form.php">
        <input type="text" placeholder="enter your name">
-       <input type="radio" value="section a" name="section">male
+       <label for="sectionid"></label> <br>
+       <input type="radio" value="section a" name="section" id="sectionid">section A <br>
+       <input type="radio" value="section b" name="section" id="sectionid">section B <br>
+       <input type="radio" value="section c" name="section" id="sectionid">section C <br>
+
+       <textarea name="explain" id="explain" cols="30" rows="10" placeholder="explain why u want to join"></textarea>
         </form>
     </div>
 </body>
